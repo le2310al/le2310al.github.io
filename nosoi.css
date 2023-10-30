@@ -1,8 +1,6 @@
 @font-face {
   font-family: "propo";
-  src:
-    local("propo");
-    url("propo.ttf") format("truetype");
+  src: url("propo.ttf");
 }
 
 body {
