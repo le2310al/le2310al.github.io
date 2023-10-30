@@ -78,10 +78,10 @@ position.innerText=avatar;
 position.style.color = '#cc3e44';
 position.style.background = '#081620';
 
-var playerhp = 10;
-var monsterhp = 10;
+//var playerhp = 10;
+//var monsterhp = 10;
 
-itm.innerText = "X";
+//itm.innerText = "X";
 //itm.appendChild(document.createTextNode("Hope\n"));
 //itm.appendChild(document.createTextNode("Shard of Sorrow\n"));
 //itm.appendChild(document.createTextNode("Die of Disease\n"));
