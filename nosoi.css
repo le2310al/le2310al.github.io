@@ -1,14 +1,14 @@
 @font-face {
   font-family: "propo";
   src:
-    local("propo"),
-    url("propo.ttf") format("truetype"),
+    local("propo");
+    url("propo.ttf") format("truetype");
 }
 
 body {
   font-family: "propo";
-  background: white;
-  color: black;
+  background: #081620;
+  color: #f6fafd;
   text-align: center;
 }
 :root {
@@ -17,10 +17,31 @@ body {
 }
 
 #button-container{
-  position:relative;
+  position: relative;
   }
 
+.interface {
+  display: block;
+  position: relative;
+  width: 801px;
+  height:501px;
+  margin: auto;
+}
+.dialog{
+  display: block;
+  position: absolute;
+  float: left;
+  width: 150px;
+  height:501px;
+  margin: auto;
+  background: #f6fafd;
+  color: #081620;
+  opacity: 10%;
+
+}
+
 .world {
+  display: inline-block;
   position: relative;
   width: 501px;
   height:501px;
@@ -31,50 +52,61 @@ body {
   display: grid;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
-  position: absolute;
-  width: 100%;
-  height:100%;
+  width: 501px;
+  height:501px;
   margin: auto;
   z-index: 1;
+  position: absolute;
 }
 
 #path {
   display: grid;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 501px;
+  height: 501px;
   margin: auto;
   z-index: 2;
+  position: absolute;
   }
 
 #rules {
   display: none;
-  background: linen;
-  width: 100%x;
-  height: 100%;
-  margin: auto;
+  background: #f6fafd;
+  width: 501px;
+  height: 501px;
+  margin: none;
   position: absolute;
-  border: 3px dashed;
-  z-index: 2;
+  z-index: 3;
   text-align: center;
-  border-color: wheat;
-  color: black;
+  color: #205781;
 }
 
-#inventory {
-  display:block;
-  position:relative;
+.menu {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  width: 150px;
+  height:501px;
   margin: auto;
-  border: 2px dashed;
-  border-color: wheat;
-  height: auto;
-  width: 250px;
+  background: #212e37;
+  color: #f6fafd;
+}
+
+#inventory{
+
+}
+
+#items {
+  display: block;
+  position: relative;
   margin: auto;
-  white-space: pre-line;
-  background: linen;
-  color: grey;
+  z-index: 2;
+  height: 100px;
+  width: 150px;
+  margin: auto;
+  background: #081620;
+  color: #f6fafd;
   }
 
 button{
@@ -84,6 +116,7 @@ button{
 }
 
 #closebutton{
+display:none;
 position:absolute;
 top: 0px;
 right:0px;
