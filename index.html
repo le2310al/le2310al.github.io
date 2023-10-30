@@ -5,10 +5,16 @@
     <link rel="stylesheet" type="text/css" href="nosoi.css" /> 
   </head>
   <body>
-    <p1>NOSOI</1>
+<p1>NOSOI</1>
     <P>
-    <button onclick="togglerules()">Rules</button>
-    <div id="container"></div>
+<div id = "base"> 
+  <div id = button-container>
+    <button onclick="togglehide('rules')">Rules</button>
+    <button onclick="togglehide('inventory')">Inventory</button>
+  </div>
+  <p>
+    <div id="container">    
+    </div>
     <div id="rules">
       <p>
       <p1>Rules:</p1>
@@ -17,10 +23,32 @@
       <p>
         <p3>Use directional keys ←↑→↓ to move across the map</p3>
         <p>
-        <p4>You will only be able to see 1 cell around you </p4>
-    </div>  
-    <div id="path"></div>
-    <script src="nosoi.js"></script> 
-  </body>
-</html> 
+    </div>
+    
+    <div id="inventory">        
+    </div>
+    
+    <div id = "tempdiv">
+
+      <div id = "temptext">
+      </div>
+            <div id = "tempbuttoncontainer">
+      <button id = "closebutton", onclick="togglehide('tempdiv')">X</button>
+      </div>
+    </div>
   
+  <div id ="fight">
+     <div id = "fighttext">
+     </div>
+     <div id = "fightbuttons">
+      <button onclick="slap()">Slap</button>
+      <button id = "fightbuttonblade", onclick="blade()">Use Blade</button>
+      <button id = "fightbuttontea", onclick="tea()">Brew Tea</button>
+      <button onclick="run()">Run</button>
+     </div>
+  </div>
+  <div id="path"></div>
+</div>
+<script src="nosoi.js"></script> 
+</body>
+</html>
