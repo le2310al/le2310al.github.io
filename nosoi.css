@@ -130,9 +130,25 @@ height: auto;
 margin: auto;
 position: relative;
 white-space: pre-line;
+display:none;
+border: 2px solid;
+background: linen;
+width: 501px;
+height: auto;
+margin: auto;
+position: relative;
+white-space: pre-line;
 }
 
 #fight{
+display:none;
+border: 2px solid;
+background: linen;
+width: 501px;
+height: auto;
+margin: auto;
+position: relative;
+white-space: pre-line;
 display:none;
 border: 2px solid;
 background: linen;
@@ -145,8 +161,10 @@ white-space: pre-line;
 
 #fightbuttons{
 display:flex;
+display:flex;
 }
 
 #fightbuttontea, #fightbuttonblade{
+display:none;
 display:none;
 }
