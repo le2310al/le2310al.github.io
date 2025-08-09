@@ -7,6 +7,8 @@
   <li>Profit</li>
 </ol>	
 
-![NFC Tools Records for IOS and Android Compatability](/public/nfc_tools.jpg "NFC Tools Records")
+![nfc_tools](https://github.com/user-attachments/assets/11df7a76-c377-4d9f-9d57-baa8fd1cdeed)
 
-[![Demonstration](https://github.com/le2310al/le2310al.github.io/blob/main/public/thumbnail.png)](https://github.com/le2310al/le2310al.github.io/blob/main/public/demo.mov)
+
+https://github.com/user-attachments/assets/4e70b8b3-6447-40df-ae55-856e4bd254b6
+
