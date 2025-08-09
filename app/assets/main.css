@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import "@catppuccin/tailwindcss/frappe.css";
+/*@import "@nuxt/ui";*/
+
+@source "../components";
+@source "../pages";
+
+@theme {
+    --color-ctp-primary:     var(--catppuccin-color-pink);
+    --color-ctp-primary-50:  var(--catppuccin-color-pink-50);
+    --color-ctp-primary-100: var(--catppuccin-color-pink-100);
+    --color-ctp-primary-200: var(--catppuccin-color-pink-200);
+    --color-ctp-primary-300: var(--catppuccin-color-pink-300);
+    --color-ctp-primary-400: var(--catppuccin-color-pink-400);
+    --color-ctp-primary-500: var(--catppuccin-color-pink-500);
+    --color-ctp-primary-600: var(--catppuccin-color-pink-600);
+    --color-ctp-primary-700: var(--catppuccin-color-pink-700);
+    --color-ctp-primary-800: var(--catppuccin-color-pink-800);
+    --color-ctp-primary-900: var(--catppuccin-color-pink-900);
+    --color-ctp-primary-950: var(--catppuccin-color-pink-950);
+
+    --color-ctp-secondary:     var(--catppuccin-color-mauve);
+    --color-ctp-secondary-50:  var(--catppuccin-color-mauve-50);
+    --color-ctp-secondary-100: var(--catppuccin-color-mauve-100);
+    --color-ctp-secondary-200: var(--catppuccin-color-mauve-200);
+    --color-ctp-secondary-300: var(--catppuccin-color-mauve-300);
+    --color-ctp-secondary-400: var(--catppuccin-color-mauve-400);
+    --color-ctp-secondary-500: var(--catppuccin-color-mauve-500);
+    --color-ctp-secondary-600: var(--catppuccin-color-mauve-600);
+    --color-ctp-secondary-700: var(--catppuccin-color-mauve-700);
+    --color-ctp-secondary-800: var(--catppuccin-color-mauve-800);
+    --color-ctp-secondary-900: var(--catppuccin-color-mauve-900);
+    --color-ctp-secondary-950: var(--catppuccin-color-mauve-950);
+
+    --font-JetBrainsMono: "Jet Brains Mono", monospace;
+}
