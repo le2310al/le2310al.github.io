@@ -6,6 +6,6 @@ onMounted(() => {
 </script>
 
 <template>
-  <p>Redirecting to contact...</p>
+  <p>Loading Cyborg Contact</p>
 </template>
 
