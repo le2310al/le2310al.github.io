@@ -12,6 +12,10 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
       <p>
         Born in Germany, raised in the US, educated in the UK and working ... at your company?
       </p>
+      <p>I'm a recent MSc Computer Science Graduate of the University of Bristol with a background in Biomedicine and a
+        future in App Development. My friends would describe me as a dependable organizer and my neighbours as a communicative problem solver.
+        Between changing environments, languages and domains I consider myself resilient and adaptable.</p>
+      <p>I like a good challenge and have learnt to scuba dive, ride a motorcycle and use Arch (btw).</p>
     </Fieldset>
     <Fieldset class="ml-20 mr-20">
       <template #legend>
@@ -36,8 +40,8 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
        2UjyhTnDsBOn9abLYGkc7HwSy" class="text-ctp-blue">subdermal implant</a> containing both a 13.56MHz NFC and 125kHz RFID chip between my left
         thumb and index finger. </p>
       <p>My new magic tricks include entering my carpark by encouragingly petting the gate sensor
-        and making others believe I truly did punch my digits into their phone at the speed of <s>high frequency transmission</s>
-        light.
+        and punching my digits into your phone at the speed of <s>light</s>
+        high frequency transmission.
       </p>
       <p>If we don't have the pleasure of meeting in person, check out my <a href="/nextv2" class="text-ctp-blue"> .vcf </a>!
       </p>
